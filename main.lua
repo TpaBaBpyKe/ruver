@@ -218,7 +218,7 @@ local queueonteleport = (syn and syn.queue_on_teleport) or queue_on_teleport or 
 local httprequest = (syn and syn.request) or http and http.request or http_request or (fluxus and fluxus.request) or request
 local httpservice = game:GetService('HttpService')
 if queueonteleport then
-	queueonteleport("loadstring(game:HttpGet(''))()")
+	queueonteleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/TpaBaBpyKe/ruver/main/main.lua'))()")
 end
 local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/TpaBaBpyKe/rtehewcr223c/main/asd23cdasc"))()
 function forceServerHop()
